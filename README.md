@@ -1,2 +1,2 @@
-# slothwrite
-Chrome Application for Writers
+# SlothTrack
+Chrome Application for tracking things.
