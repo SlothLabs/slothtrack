@@ -26,3 +26,9 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Bower-related stuff
+public/vendor/
+
+# Node/NPM related stuff
+node_modules/

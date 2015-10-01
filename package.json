@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Chrome app for tracking stuff",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/SlothLabs/slothtrack/issues"
   },
-  "homepage": "https://github.com/SlothLabs/slothtrack#readme"
+  "homepage": "https://github.com/SlothLabs/slothtrack#readme",
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "gulp": "^3.9.0"
+  }
 }
