@@ -1,0 +1,22 @@
+{
+  "name": "slothtrack",
+  "version": "0.0.1",
+  "homepage": "https://github.com/SlothLabs/slothtrack",
+  "authors": [
+    "Matthew Cory <sloth.labs@gmail.com>"
+  ],
+  "description": "Chrome application for tracking stuff.",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
