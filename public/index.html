@@ -1,9 +1,18 @@
-<html>
+<html ng-app="slothtrack">
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css" />
   </head>
   <body>
-    <h1>Hello Chrome Apps!</h1>
+    <div ng-controller="IndexController">
+      <input type="text" ng-model="name" placeholder="Name..." /><br />
+      {{ name }}
+    </div>
+    <script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/angular/angular.min.js"></script>
+    <script type="text/javascript" src="vendor/angular-route/angular-route.min.js"></script>
+
+    <script type="text/javascript" src="js/app/main.js"></script>
+    <script type="text/javascript" src="js/app/IndexController.js"></script>
   </body>
 </html>
